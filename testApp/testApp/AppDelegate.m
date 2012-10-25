@@ -28,8 +28,11 @@
     float totalTime = 5.50f;
     float timeRemaining = 4.5f;
     
+    
+    //Simple call function
     NSLog(@"Jasmine Sloan, Project:1 AOC1, 1211 Term ");
     
+    //Cast to Int
     NSLog(@"I'm Jasmine, and I'm am the DJ for %d hours (really %.2f, but I'm tired) at Central Station tonight",(int)totalTime, totalTime);
     
     // Loops through what songs has been played
@@ -46,7 +49,7 @@
         NSLog(@"Set of %d songs is done, time to go home!", songsNeeded );
     }
     
-    // While statements
+    // While, And, and BOOL statements
     // Loops through how many students are left in the degree program counting down by 3's
     while (songsNeeded > 0) {
         if (songsNeeded % 5 == 0) {
