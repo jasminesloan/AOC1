@@ -37,7 +37,7 @@
     
     // Loops through what songs has been played
     for (songsPlayed = 1; songsPlayed < 5; songsPlayed++) {
-        // Loops through the songs that have been completed
+        // Loops through the songs in que, that have been played, and how many more to close the set
         for (songsInQue = 1; songsInQue < 5; songsInQue++) {
             if (songsInQue < 15) {
                 NSLog(@"Songs in Que for the set, %d has been played, need to add more to close this set", songsInQue);
