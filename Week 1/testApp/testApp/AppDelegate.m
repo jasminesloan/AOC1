@@ -40,7 +40,7 @@
         // Loops through the songs in que, that have been played, and how many more to close the set
         for (songsInQue = 1; songsInQue < 5; songsInQue++) {
             if (songsInQue < 15) {
-                NSLog(@"Songs in Que for the set, %d has been played, need to add more to close this set", songsInQue);
+                NSLog(@"Songs in Que for the set, %d have been played, need to add more to close this set", songsInQue);
             }
             else if (songsInQue == 25) {
                 NSLog(@"When %d have been played, the set will be over.", songsNeeded);
@@ -50,22 +50,15 @@
     }
     
     // While, And, and BOOL statements
-    // Loops through how many students are left in the degree program counting down by 3's
-    while (songsNeeded > 0) {
-        if (songsNeeded % 5 == 0) {
+    // Loops through how many songs are left in the set
+    while (songsNeeded > 5) {
             NSLog(@"This is a long set, only %d songs remain from the original set.", songsNeeded);
-        }
-        // Displays 5 songs are left
-        else if (songsNeeded < 6) {
-            NSLog(@"It is now down to the remaining %d songs for the set.", songsNeeded);
-            break;
-        }
         songsNeeded--;
     }
     
     
     // Conditional else, else if, else statments
-    if (songsInQue == 10  && playSong == YES) {
+    if (songsInQue == 5  && playSong == YES) {
         NSLog(@"I have %d songs left in que, I need to add more.", songsInQue);
     }
     else if (songsInQue < 5 && stopSong == NO) {
