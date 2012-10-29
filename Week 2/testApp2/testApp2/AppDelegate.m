@@ -1,8 +1,8 @@
 //
 //  AppDelegate.m
-//  testApp
+//  testApp2
 //
-//  Created by Jasmine Jamieson on 10/22/12.
+//  Created by Jasmine Jamieson on 10/29/12.
 //  Copyright (c) 2012 com.fullsail. All rights reserved.
 //
 
@@ -10,72 +10,14 @@
 
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
-    
-    //Week 1:
-    
-    BOOL playSong = YES;
-    BOOL stopSong = NO;
-    int songsPlayed = 1;
-    int songsInQueue = 1;
-    int songsNeeded = 25;
-    float totalTime = 5.50f;
-    float timeRemaining = 4.5f;
-    
-    
-    //Simple call function
-    NSLog(@"Jasmine Sloan, Project:1 AOC1, 1211 Term ");
-    
-    //Cast to Int
-    NSLog(@"I'm Jasmine, and I'm am the DJ for %d hours (really %.2f, but I'm tired) at Central Station tonight",(int)totalTime, totalTime);
-    
-    // Loops through what songs has been played
-    for (songsPlayed = 1; songsPlayed < 5; songsPlayed++) {
-        // Loops through the songs in que, that have been played, and how many more to close the set
-        for (songsInQueue = 1; songsInQueue < 5; songsInQueue++) {
-            if (songsInQueue < 15) {
-                NSLog(@"Songs in Queue for the set, %d have been played, need to add more to close this set", songsInQueue);
-            }
-            else if (songsInQueue == 25) {
-                NSLog(@"When %d have been played, the set will be over.", songsNeeded);
-            }
-        }
-        NSLog(@"Set of %d songs is done, time to go home!", songsNeeded );
-    }
-    
-    // While, And, and BOOL statements
-    // Loops through how many songs are left in the set
-    while (songsNeeded > 5) {
-            NSLog(@"This is a long set, only %d songs remain from the original set.", songsNeeded);
-        songsNeeded--;
-    }
-    
-    
-    // Conditional else, else if, else statments
-    if (songsInQueue == 5  && playSong == YES) {
-        NSLog(@"I have %d songs left in queue, I need to add more.", songsInQueue);
-    }
-    else if (songsInQueue < 5 && stopSong == NO) {
-        NSLog(@"Since I have %.2f hours left, I will play %d songs to continue the set until the end.", timeRemaining, songsInQueue);
-    }
-    else {
-        NSLog(@"I have played %d songs so far.", songsPlayed);
-    }
-    
     return YES;
 }
-
-
-
-
-
-
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {
@@ -105,6 +47,3 @@
 }
 
 @end
-
-
-
