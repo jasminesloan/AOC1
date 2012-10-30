@@ -31,7 +31,7 @@
         title.text = @"Fifty Shades of Grey";
         
         //title text alignment centered
-        title.textAlignment = UITextAlignmentCenter;
+        title.textAlignment = kCTRightTextAlignment;
     }
     
     [self.view addSubview:title];
@@ -47,7 +47,7 @@
         author.text = @"Author:";
         
         //author text alignment right 
-        author.textAlignment = UITextAlignmentRight;
+        author.textAlignment = kCTCenterTextAlignment;
         
         //author text color (snow2)
         author.textColor = [UIColor colorWithRed:0.933 green:0.914 blue:0.914 alpha:1]; /*#eee9e9*/
@@ -64,10 +64,10 @@
         authorName.text = @"E.L. James";
         
         //author name alignment left
-        authorName.textAlignment = UITextAlignmentLeft;
+        authorName.textAlignment = kCTLeftTextAlignment;
         
-        //author name color (snow2)
-        authorName.textColor = [UIColor colorWithRed:0.933 green:0.914 blue:0.914 alpha:1]; /*#eee9e9*/
+        //author name color (slate blue)
+        authorName.textColor = [UIColor colorWithRed:0 green:0.498 blue:1 alpha:1]; /*#007fff*/
     }
     [self.view addSubview:authorName];
     
@@ -82,10 +82,10 @@
         published.text = @"Published:";
         
         //published alignment left
-        published.textAlignment = UITextAlignmentRight;
+        published.textAlignment = kCTCenterTextAlignment;
         
-        //published color (snow2)
-        published.textColor = [UIColor colorWithRed:0.933 green:0.914 blue:0.914 alpha:1]; /*#eee9e9*/
+        //published color (turquoise)
+        published.textColor = [UIColor colorWithRed:0.678 green:0.918 blue:0.918 alpha:1]; /*#adeaea*/
     }
     [self.view addSubview:published];
     
@@ -101,10 +101,10 @@
     publishedLabel.text = @"March 5, 2012";
     
     //Published Text alignment left
-    publishedLabel.textAlignment = UITextAlignmentLeft;
+    publishedLabel.textAlignment = kCTLeftTextAlignment;
     
-    //Published Label color (snow2)
-    publishedLabel.textColor = [UIColor colorWithRed:0.933 green:0.914 blue:0.914 alpha:1]; /*#eee9e9*/
+    //Published Label color (light blue)
+        publishedLabel.textColor = [UIColor colorWithRed:0.753 green:0.851 blue:0.851 alpha:1]; /*#c0d9d9*/
     }
     [self.view addSubview:publishedLabel];
     
@@ -120,10 +120,10 @@
         summary.text = @"Summary:";
         
         //Summary Text alignment left
-        summary.textAlignment = UITextAlignmentLeft;
+        summary.textAlignment = kCTLeftTextAlignment;
         
-        //Summary Label color (snow2)
-        summary.textColor = [UIColor colorWithRed:0.933 green:0.914 blue:0.914 alpha:1]; /*#eee9e9*/
+        //Summary Label color (Quartz)
+        summary.textColor = [UIColor colorWithRed:0.851 green:0.851 blue:0.953 alpha:1]; /*#d9d9f3*/
     }
     [self.view addSubview:summary];
     
@@ -135,16 +135,16 @@
         bookSummary.backgroundColor = [UIColor colorWithRed:0.38 green:0.369 blue:0.247 alpha:1]; /*#615e3f*/
         
         //book summary
-        bookSummary.text = @"Fifty Shades of Grey, follows recent college graduate Anastasia Steele as she ventures into an awkward   relationship with a slightly older, emotionally-damaged, billionaire tycoon Christian Grey, and the ups and downs of their relationship.";
+        bookSummary.text = @"Fifty Shades of Grey, follows recent college graduate Anastasia Steele as she ventures into an awkward relationship with a slightly older, emotionally-damaged, billionaire tycoon Christian Grey, and the ups and downs of their relationship.";
         
         //multiple lines label
         bookSummary.numberOfLines = 8;
         
         //book summary text alignment center
-        bookSummary.textAlignment = UITextAlignmentCenter;
+        bookSummary.textAlignment = kCTRightTextAlignment;
         
-        //book summary text color (snow2)
-        bookSummary.textColor = [UIColor colorWithRed:0.933 green:0.914 blue:0.914 alpha:1]; /*#eee9e9*/
+        //book summary text color (light wood)
+        bookSummary.textColor =  [UIColor colorWithRed:0.914 green:0.761 blue:0.651 alpha:1]; /*#e9c2a6*/
     }
     [self.view addSubview:bookSummary];
     
@@ -157,10 +157,10 @@
         list.text = @"Item Lists:";
         
         //list text alignment left
-        list.textAlignment = UITextAlignmentLeft;
+        list.textAlignment = kCTLeftTextAlignment;
         
-        //list text color (snow2)
-        list.textColor = [UIColor colorWithRed:0.933 green:0.914 blue:0.914 alpha:1]; /*#eee9e9*/
+        //list text color (light grey)
+        list.textColor = [UIColor colorWithRed:0.659 green:0.659 blue:0.659 alpha:1]; /*#a8a8a8*/
     }
     [self.view addSubview:list];
     
@@ -199,10 +199,10 @@
         items.numberOfLines = 3;
         
         //items text alignment center
-        items.textAlignment = UITextAlignmentCenter;
+        items.textAlignment = kCTRightTextAlignment;
         
-        //items text color (snow2)
-        items.textColor = [UIColor colorWithRed:0.933 green:0.914 blue:0.914 alpha:1]; /*#eee9e9*/
+        //items text color (silver)
+        items.textColor = [UIColor colorWithRed:0.902 green:0.91 blue:0.98 alpha:1]; /*#e6e8fa*/
     }
     [self.view addSubview:items];
     
