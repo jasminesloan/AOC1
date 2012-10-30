@@ -14,16 +14,16 @@
     UILabel *author;
     UILabel *authorName;
     UILabel *published;
-    UILabel *publishedDate;
+    UILabel *publishedLabel;
     UILabel *summary;
-    UILabel *storySummary;
+    UILabel *bookSummary;
     UILabel *list;
-    NSString *item1;
-    NSString *item2;
-    NSString *item3;
-    NSString *item4;
-    NSString *item5;
-    NSArray *itemArray;
+    NSString *listItem1;
+    NSString *listItem2;
+    NSString *listItem3;
+    NSString *listItem4;
+    NSString *listItem5;
+    NSArray *listItemArray;
     NSMutableString *itemList;
     UILabel *items;
 }
