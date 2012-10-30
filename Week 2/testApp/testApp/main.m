@@ -1,6 +1,6 @@
 //
 //  main.m
-//  testApp2
+//  testApp
 //
 //  Created by Jasmine Jamieson on 10/29/12.
 //  Copyright (c) 2012 com.fullsail. All rights reserved.

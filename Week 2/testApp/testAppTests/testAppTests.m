@@ -1,14 +1,14 @@
 //
-//  testApp2Tests.m
-//  testApp2Tests
+//  testAppTests.m
+//  testAppTests
 //
 //  Created by Jasmine Jamieson on 10/29/12.
 //  Copyright (c) 2012 com.fullsail. All rights reserved.
 //
 
-#import "testApp2Tests.h"
+#import "testAppTests.h"
 
-@implementation testApp2Tests
+@implementation testAppTests
 
 - (void)setUp
 {
@@ -26,7 +26,7 @@
 
 - (void)testExample
 {
-    STFail(@"Unit tests are not implemented yet in testApp2Tests");
+    STFail(@"Unit tests are not implemented yet in testAppTests");
 }
 
 @end
