@@ -165,11 +165,11 @@
     [self.view addSubview:list];
     
     // list item array
-    listItem1 = [[NSString alloc] initWithString:@"Red Room"];
-    listItem2 = [[NSString alloc] initWithString:@"Audi"];
-    listItem3 = [[NSString alloc] initWithString:@"'Fifty Shades'"];
-    listItem4 = [[NSString alloc] initWithString:@"Seattle"];
-    listItem5 = [[NSString alloc] initWithString:@"BSDM"];
+    listItem1 = @"Red Room";
+    listItem2 = @"Audi";
+    listItem3 = @"'Fifty Shades'";
+    listItem4 = @"Seattle";
+    listItem5 = @"BSDM";
     
     //items NSArray
       listItemArray = [NSArray arrayWithObjects:listItem1, listItem2, listItem3, listItem4, listItem5, nil];
