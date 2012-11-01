@@ -116,13 +116,13 @@
         summary.backgroundColor = [UIColor colorWithRed:0.227 green:0.227 blue:0.22 alpha:1]; /*#3a3a38*/
         
         
-        //Summary Label text
+        //Summary label text
         summary.text = @"Summary:";
         
         //Summary Text alignment left
         summary.textAlignment = kCTLeftTextAlignment;
         
-        //Summary Label color (Quartz)
+        //Summary label color (Quartz)
         summary.textColor = [UIColor colorWithRed:0.851 green:0.851 blue:0.953 alpha:1]; /*#d9d9f3*/
     }
     [self.view addSubview:summary];
@@ -130,7 +130,7 @@
     //Story Summary label
     bookSummary = [[UILabel alloc] initWithFrame:CGRectMake(0.0f, 150.0f, 320.0f, 150.0f)];
     
-    //book Summary background (tank)
+    //book summary background (tank)
     if (bookSummary != nil) {
         bookSummary.backgroundColor = [UIColor colorWithRed:0.38 green:0.369 blue:0.247 alpha:1]; /*#615e3f*/
         
