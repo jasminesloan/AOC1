@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC2577A71646E0D70002304B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC2577A61646E0D70002304B /* UIKit.framework */; };
+		DC2577A91646E0D70002304B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC2577A81646E0D70002304B /* Foundation.framework */; };
+		DC2577AB1646E0D70002304B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC2577AA1646E0D70002304B /* CoreGraphics.framework */; };
+		DC2577B11646E0D70002304B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC2577AF1646E0D70002304B /* InfoPlist.strings */; };
+		DC2577B31646E0D70002304B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2577B21646E0D70002304B /* main.m */; };
+		DC2577B71646E0D70002304B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2577B61646E0D70002304B /* AppDelegate.m */; };
+		DC2577B91646E0D70002304B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DC2577B81646E0D70002304B /* Default.png */; };
+		DC2577BB1646E0D70002304B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC2577BA1646E0D70002304B /* Default@2x.png */; };
+		DC2577BD1646E0D70002304B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC2577BC1646E0D70002304B /* Default-568h@2x.png */; };
+		DC2577C01646E0D70002304B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC2577BE1646E0D70002304B /* MainStoryboard.storyboard */; };
+		DC2577C31646E0D70002304B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2577C21646E0D70002304B /* ViewController.m */; };
+		DC2577CB1646E0D70002304B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC2577CA1646E0D70002304B /* SenTestingKit.framework */; };
+		DC2577CC1646E0D70002304B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC2577A61646E0D70002304B /* UIKit.framework */; };
+		DC2577CD1646E0D70002304B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC2577A81646E0D70002304B /* Foundation.framework */; };
+		DC2577D51646E0D70002304B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC2577D31646E0D70002304B /* InfoPlist.strings */; };
+		DC2577D81646E0D70002304B /* tespAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2577D71646E0D70002304B /* tespAppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC2577CE1646E0D70002304B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC2577991646E0D60002304B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC2577A11646E0D60002304B;
+			remoteInfo = tespApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC2577A21646E0D60002304B /* tespApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tespApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC2577A61646E0D70002304B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DC2577A81646E0D70002304B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DC2577AA1646E0D70002304B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DC2577AE1646E0D70002304B /* tespApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tespApp-Info.plist"; sourceTree = "<group>"; };
+		DC2577B01646E0D70002304B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DC2577B21646E0D70002304B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC2577B41646E0D70002304B /* tespApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tespApp-Prefix.pch"; sourceTree = "<group>"; };
+		DC2577B51646E0D70002304B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC2577B61646E0D70002304B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DC2577B81646E0D70002304B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DC2577BA1646E0D70002304B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DC2577BC1646E0D70002304B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DC2577BF1646E0D70002304B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		DC2577C11646E0D70002304B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DC2577C21646E0D70002304B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DC2577C91646E0D70002304B /* tespAppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tespAppTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC2577CA1646E0D70002304B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		DC2577D21646E0D70002304B /* tespAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tespAppTests-Info.plist"; sourceTree = "<group>"; };
+		DC2577D41646E0D70002304B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DC2577D61646E0D70002304B /* tespAppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tespAppTests.h; sourceTree = "<group>"; };
+		DC2577D71646E0D70002304B /* tespAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tespAppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC25779F1646E0D60002304B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC2577A71646E0D70002304B /* UIKit.framework in Frameworks */,
+				DC2577A91646E0D70002304B /* Foundation.framework in Frameworks */,
+				DC2577AB1646E0D70002304B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC2577C51646E0D70002304B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC2577CB1646E0D70002304B /* SenTestingKit.framework in Frameworks */,
+				DC2577CC1646E0D70002304B /* UIKit.framework in Frameworks */,
+				DC2577CD1646E0D70002304B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC2577971646E0D60002304B = {
+			isa = PBXGroup;
+			children = (
+				DC2577AC1646E0D70002304B /* tespApp */,
+				DC2577D01646E0D70002304B /* tespAppTests */,
+				DC2577A51646E0D60002304B /* Frameworks */,
+				DC2577A31646E0D60002304B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC2577A31646E0D60002304B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC2577A21646E0D60002304B /* tespApp.app */,
+				DC2577C91646E0D70002304B /* tespAppTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC2577A51646E0D60002304B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC2577A61646E0D70002304B /* UIKit.framework */,
+				DC2577A81646E0D70002304B /* Foundation.framework */,
+				DC2577AA1646E0D70002304B /* CoreGraphics.framework */,
+				DC2577CA1646E0D70002304B /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC2577AC1646E0D70002304B /* tespApp */ = {
+			isa = PBXGroup;
+			children = (
+				DC2577B51646E0D70002304B /* AppDelegate.h */,
+				DC2577B61646E0D70002304B /* AppDelegate.m */,
+				DC2577BE1646E0D70002304B /* MainStoryboard.storyboard */,
+				DC2577C11646E0D70002304B /* ViewController.h */,
+				DC2577C21646E0D70002304B /* ViewController.m */,
+				DC2577AD1646E0D70002304B /* Supporting Files */,
+			);
+			path = tespApp;
+			sourceTree = "<group>";
+		};
+		DC2577AD1646E0D70002304B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC2577AE1646E0D70002304B /* tespApp-Info.plist */,
+				DC2577AF1646E0D70002304B /* InfoPlist.strings */,
+				DC2577B21646E0D70002304B /* main.m */,
+				DC2577B41646E0D70002304B /* tespApp-Prefix.pch */,
+				DC2577B81646E0D70002304B /* Default.png */,
+				DC2577BA1646E0D70002304B /* Default@2x.png */,
+				DC2577BC1646E0D70002304B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC2577D01646E0D70002304B /* tespAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC2577D61646E0D70002304B /* tespAppTests.h */,
+				DC2577D71646E0D70002304B /* tespAppTests.m */,
+				DC2577D11646E0D70002304B /* Supporting Files */,
+			);
+			path = tespAppTests;
+			sourceTree = "<group>";
+		};
+		DC2577D11646E0D70002304B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC2577D21646E0D70002304B /* tespAppTests-Info.plist */,
+				DC2577D31646E0D70002304B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC2577A11646E0D60002304B /* tespApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC2577DB1646E0D70002304B /* Build configuration list for PBXNativeTarget "tespApp" */;
+			buildPhases = (
+				DC25779E1646E0D60002304B /* Sources */,
+				DC25779F1646E0D60002304B /* Frameworks */,
+				DC2577A01646E0D60002304B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tespApp;
+			productName = tespApp;
+			productReference = DC2577A21646E0D60002304B /* tespApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC2577C81646E0D70002304B /* tespAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC2577DE1646E0D70002304B /* Build configuration list for PBXNativeTarget "tespAppTests" */;
+			buildPhases = (
+				DC2577C41646E0D70002304B /* Sources */,
+				DC2577C51646E0D70002304B /* Frameworks */,
+				DC2577C61646E0D70002304B /* Resources */,
+				DC2577C71646E0D70002304B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC2577CF1646E0D70002304B /* PBXTargetDependency */,
+			);
+			name = tespAppTests;
+			productName = tespAppTests;
+			productReference = DC2577C91646E0D70002304B /* tespAppTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC2577991646E0D60002304B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = com.fullsail;
+			};
+			buildConfigurationList = DC25779C1646E0D60002304B /* Build configuration list for PBXProject "tespApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DC2577971646E0D60002304B;
+			productRefGroup = DC2577A31646E0D60002304B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC2577A11646E0D60002304B /* tespApp */,
+				DC2577C81646E0D70002304B /* tespAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC2577A01646E0D60002304B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC2577B11646E0D70002304B /* InfoPlist.strings in Resources */,
+				DC2577B91646E0D70002304B /* Default.png in Resources */,
+				DC2577BB1646E0D70002304B /* Default@2x.png in Resources */,
+				DC2577BD1646E0D70002304B /* Default-568h@2x.png in Resources */,
+				DC2577C01646E0D70002304B /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC2577C61646E0D70002304B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC2577D51646E0D70002304B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DC2577C71646E0D70002304B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC25779E1646E0D60002304B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC2577B31646E0D70002304B /* main.m in Sources */,
+				DC2577B71646E0D70002304B /* AppDelegate.m in Sources */,
+				DC2577C31646E0D70002304B /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC2577C41646E0D70002304B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC2577D81646E0D70002304B /* tespAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC2577CF1646E0D70002304B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC2577A11646E0D60002304B /* tespApp */;
+			targetProxy = DC2577CE1646E0D70002304B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC2577AF1646E0D70002304B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC2577B01646E0D70002304B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DC2577BE1646E0D70002304B /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC2577BF1646E0D70002304B /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		DC2577D31646E0D70002304B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC2577D41646E0D70002304B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC2577D91646E0D70002304B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DC2577DA1646E0D70002304B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC2577DC1646E0D70002304B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tespApp/tespApp-Prefix.pch";
+				INFOPLIST_FILE = "tespApp/tespApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DC2577DD1646E0D70002304B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tespApp/tespApp-Prefix.pch";
+				INFOPLIST_FILE = "tespApp/tespApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DC2577DF1646E0D70002304B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/tespApp.app/tespApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tespApp/tespApp-Prefix.pch";
+				INFOPLIST_FILE = "tespAppTests/tespAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		DC2577E01646E0D70002304B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/tespApp.app/tespApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tespApp/tespApp-Prefix.pch";
+				INFOPLIST_FILE = "tespAppTests/tespAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC25779C1646E0D60002304B /* Build configuration list for PBXProject "tespApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC2577D91646E0D70002304B /* Debug */,
+				DC2577DA1646E0D70002304B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC2577DB1646E0D70002304B /* Build configuration list for PBXNativeTarget "tespApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC2577DC1646E0D70002304B /* Debug */,
+				DC2577DD1646E0D70002304B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DC2577DE1646E0D70002304B /* Build configuration list for PBXNativeTarget "tespAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC2577DF1646E0D70002304B /* Debug */,
+				DC2577E01646E0D70002304B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC2577991646E0D60002304B /* Project object */;
+}
