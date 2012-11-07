@@ -66,9 +66,6 @@
                 [alertView addSubview:indicator];
             }
         }
-        for (int i=0; i<10000000; i++)
-        {
-        }
             [alertView dismissWithClickedButtonIndex:0 animated:TRUE];
     }
     
